@@ -1,0 +1,397 @@
+
+.abilities{
+    border: 0px solid white;
+    height: 300px;
+    width: 400px;
+    object-fit: center;
+}
+.abilities-text{
+    border: 0px solid white;
+    height: 300px;
+    width: 750px;
+    padding-left: 20px;
+}
+.abilities-img {
+    padding: 5%;
+}
+.agent-container{
+    display: grid; 
+    grid-template-columns: 400px 500px 10px 1000px;
+
+}
+.agent-body{
+    margin-top: 100px;
+
+}
+.ul1{
+
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.ho2{
+    text-shadow: -5px 0 black, 0 5px black,      5px 0 black, 0 -5px black;
+    text-align:center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 182, 46);
+    font-size: 5em;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.agent-text{
+    text-shadow: -3px 0 black, 0 3px black,      3px 0 black, 0 -3px black;
+    text-align:center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(194, 194, 194);
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.agent-bio-black {
+    text-shadow: -3px 0 rgb(116, 116, 116), 0 3px rgb(116, 116, 116),3px 0 rgb(116, 116, 116), 0 -3px rgb(116, 116, 116);
+    text-align:right;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.35em;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.agent-bio-white{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align:right;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.35em;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.agent-header {
+    grid-template-columns: 1000px;
+    object-fit: center;
+}
+.agent-rule-logo{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -480px;
+    margin-left: 75%;  
+}
+.agent-rule-logo-astra{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;  
+    filter: brightness(0)
+}
+.agent-rule-logo-breach{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -480px;
+    margin-left: 75%;  
+    filter: brightness(0);
+}
+.agent-rule-logo-brimstone{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;  
+    filter: brightness(0);
+}
+.agent-rule-logo-chamber{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -480px;
+    margin-left: 75%;  
+}
+.agent-rule-logo-cypher{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;  
+    filter: brightness(0)
+}
+.agent-rule-logo-fade{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -390px;
+    margin-left: 75%;  
+}
+.agent-rule-logo-harbor{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-jett{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-kayo{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-KILLJOY{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-neon{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-omen{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-phoenix{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -420px;
+    margin-left: 75%;
+}
+.agent-rule-logo-raze{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-REYNA{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-SKYE{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -480px;
+    margin-left: 75%;
+}
+.agent-rule-logo-viper{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -420px;
+    margin-left: 75%;
+}
+.agent-rule-logo-sova{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-yoru{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%;
+}
+.agent-rule-logo-controller{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -480px;
+    margin-left: 75%;  
+}
+.agent-rule-logo-black{
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+    margin-left: 75%; 
+    filter: brightness(0); 
+}
+.agent-rule-text {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin-left: auto;
+    margin-right: -5%;
+    margin-top: auto;
+    margin-bottom: 100px;
+    position: relative; right: 200px; top: 10px
+}
+.agent-header-logo {
+    border: 0px solid white;
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    margin-top: -450px;
+}
+.agent-header-text-white {
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    font-size: 2em;
+    text-align: right;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -250px;
+}
+
+.agent-header-text-black {
+    color: black;
+    text-shadow: 0 0 0.2em rgb(255, 208, 0), 0 0 0.2em rgb(255, 94, 0);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -250px;
+}
+
+.abilities-zoom {
+    max-width: 100%;
+    transition: all 0.2s ease-in-out;
+    
+}
+.abilities-zoom:hover {
+
+    transform: scale(3);
+    margin-left: 100%;
+    margin-bottom: 100%;
+    opacity: 100%;
+}
+.agent-zoom {
+    max-width: 100%;
+    transition: all 0.2s ease-in-out;
+    
+}
+.agent-zoom:hover {
+
+    transform: scale(3);
+    margin-left: 100%;
+    margin-bottom: 100%;
+    opacity: 100%;
+}
+
+.bg-blur{
+    opacity: 50%;
+}
+.bg-blur {
+    opacity: 0%;
+}
+.arsenal-zoom {
+    max-width: 100%;
+    transition: 0.2s ease-in-out;
+    opacity: 100%;
+}
+.arsenal-zoom:hover {
+    transform: scale(0.5);
+    opacity: 50%;
+}
+.description-arsenal {
+    color: rgb(194, 194, 194);
+    display: block;
+    line-height: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: auto;
+    font-size: 1em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.caption {
+    opacity: 100%; 
+}
+.caption:hover {
+    opacity: 100%;
+    background-color: rgb(192, 0, 0);
+}
+.arsenal-text-des {
+    color: rgb(255, 255, 255);
+    opacity: 10%;
+    text-align: left;
+}
+.arsenal-text-des:hover + .text-container{
+    opacity: 100%;
+}
+.text-container{
+    text-align: left;
+    opacity: 0%;
+}
+.text-container:hover {
+    opacity: 100%;
+}
+.caption3 {
+    opacity: 0%;
+    position: relative; left:0px; top: -300px;
+    margin-bottom: -300px;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.caption3:hover {
+    color: Blue; text-shadow: 0 0 0.2em rgb(255, 196, 2), 0 0 0.2em rgb(255, 196, 2);
+    opacity:100%;
+    transition-delay: 0.07s;
+    transition: blur(30);
+    background-color: rgba(0, 0, 0, 0.678); opacity: 100%;
+    text-decoration:solid;
+    border-radius: 90px 90px 0px 0px;
+
+}
